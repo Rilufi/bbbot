@@ -59,3 +59,7 @@ Instalar o Selenium pode ser treta às vezes, então vou incluir a documentaçã
 ### Sistema operacional
 
 É pra funcionar em todos os OS, Windows e MAC podem dar alguns problemas de instalação, como na hora de instalar o pip pra instalar o Selenium, mas daí é só pesquisar "como instalar pip no Windows".
+
+### Agradecimentos
+
+Bot inspirado no bot de @he4rt e @r3br34k
