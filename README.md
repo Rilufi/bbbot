@@ -43,7 +43,7 @@ $ python bbbot.py
 
 O link do site de votação muda, então é só mudar o site dentro de driver.get("https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-flayslane-ou-marcela-5ed83d00-014e-401d-80c8-20314769ce2f.ghtml") com o paredão da vez entre aspas
 
-O bot está configurado para votar na terceira opção (no caso desse paredão, Marcela), mas é só encontrar os caminhos XPath de cada participante, dica:
+O bot está configurado para votar automaticamente na Marcela nesse paredão, mas se quiser mudar é só encontrar os caminhos XPath de cada participante, dica:
 Marcela é a terceira participante, seu driver.find_element_by_xpath("""/html/body/div[2]/div[4]/div/div[1]/div[4]/div[3]/div/div[1]""").click() contém esse div[3], assim como as outras 2 variáveis do captcha dessa sessão, se mudar para 1 e 2 serão os respectivos participantes
 
 ## Solução de problemas
