@@ -1,4 +1,4 @@
-#!-*- conding: utf8 -*-
+#!-*- coding: utf8 -*-
 from selenium import webdriver
 from time import sleep
 
