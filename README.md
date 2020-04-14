@@ -2,20 +2,31 @@
 ## Instalações necessárias
 ### Instale o Python
 
-Para instalar o Python 3, digite em um terminal:
+Para instalar o Python 3:
 
+No Linux, digite em um terminal:
 $ sudo apt-get install python3
+
+Em outros OS:
+https://realpython.com/installing-python/
 
 ### Instale o pip
 
-Para instalar o gerenciador de pacotes pip, digite em um terminal:
+Para instalar o gerenciador de pacotes pip:
 
+No Linux,  digite em um terminal:
 $ sudo apt-get install python3-pip
+
+Windows:
+https://www.liquidweb.com/kb/install-pip-windows/
+
+No Mac, ditie em um terminal:
+$ sudo easy_install pip
+$ sudo pip install --upgrade pip
 
 ### Instale o Selenium
 
 Digite em um terminal
-
 $ python -m pip install -U selenium
 
 ### Edições
@@ -43,7 +54,7 @@ $ python bbbot.py
 
 O link do site de votação muda, então é só mudar o site dentro de driver.get("https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-flayslane-ou-marcela-5ed83d00-014e-401d-80c8-20314769ce2f.ghtml") com o paredão da vez entre aspas
 
-O bot está configurado para votar automaticamente na Marcela nesse paredão, mas se quiser mudar é só encontrar os caminhos XPath de cada participante. 
+O bot está configurado para votar automaticamente na Gizelly nesse paredão, mas se quiser mudar é só encontrar os caminhos XPath de cada participante. 
 Ou você pode usar o atalho com a dica: Marcela é a terceira participante, seu driver.find_element_by_xpath("""/html/body/div[2]/div[4]/div/div[1]/div[4]/div[3]/div/div[1]""").click() contém esse div[3], assim como as outras 2 variáveis do captcha dessa sessão (, se mudar para 1 e 2 serão os respectivos participantes.
 Exemplo, o driver.find_elemet_by_xpath do segundo participante é: """/html/body/div[2]/div[4]/div/div[1]/div[4]/div[2]/div/div[1]"""
 
