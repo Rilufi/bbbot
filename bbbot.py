@@ -32,13 +32,13 @@ print("abrindo página de votação")
 
 def votar():
 
-    driver.get("https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-gizelly-ou-mari-6b0c783d-65cd-4a4e-940c-ad086cf73fee.ghtml")
+    driver.get("https://gshow.globo.com/realities/bbb/bbb20/votacao/paredao-bbb20-quem-voce-quer-eliminar-babu-manu-ou-mari-ef6b3f8d-6cd8-4418-9f63-ca6702323cde.ghtml")
     driver.find_element_by_xpath("""/html/body/div[2]/div[4]/div/div[1]/div[4]/div[2]/div/div[1]""").click() #Clica no Participante
     sleep(2)
     driver.find_element_by_xpath("""/html/body/div[2]/div[4]/div/div[1]/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/img""").click() #Clica no Captcha pela 1Âº vez
     sleep(4.5) #Altere o tempo em segundos de acordo com a demora de processar o voto!
-#    driver.find_element_by_xpath("""/html/body/div[2]/div[4]/div/div[1]/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/img""").click() #Clica no Captcha pela 2Âº vez
-#    sleep(5) #Altere o tempo em segundos de acordo com a demora de processar o voto!
+#   driver.find_element_by_xpath("""/html/body/div[2]/div[4]/div/div[1]/div[4]/div[2]/div[2]/div/div/div[2]/div/div[2]/img""").click() #Clica no Captcha pela 2Âº vez
+#   sleep(5) #Altere o tempo em segundos de acordo com a demora de processar o voto!
 
 print("votando")
 
