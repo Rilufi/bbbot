@@ -11,7 +11,7 @@ votos_cont = 0
 
 print("abrindo Chrome")
 
-chrome_path = r"caminho\até\chromedriver.exe"
+chrome_path = r"../bbbot-master/chromedriver.exe"
 driver = webdriver.Chrome(chrome_path)
 driver.implicitly_wait(10)
 
