@@ -37,7 +37,7 @@ Com o bbbot.py e o chromedriver.exe na mesma pasta, faça o seguinte:
   
 1º Clique com o botão direito do mouse no chromedriver e em propriedades para checar sua localização (ou seja, a pasta onde você salvou)
 
-2º Se a pasta contendo o bbbot chamar bbbot-master, não precisa fazer nenhuma alteração em chrome_path, caso não chame mude o nome da pasta ou vá em "chrome_path" e no meio das aspas, apague o endereço "../facebot-master/chromedriver.exe" e cole o endereço que copiou no 1º passo, ele irá ficar assim:
+2º Se a pasta contendo o bbbot chamar bbbot-master, não precisa fazer nenhuma alteração em chrome_path, caso não chame mude o nome da pasta ou vá em "chrome_path" e no meio das aspas, apague o endereço "../bbbot-master/chromedriver.exe" e cole o endereço que copiou no 1º passo, ele irá ficar assim:
 Exemplo: chrome_path = r"C:\Users\usuario\Desktop\pasta\chromedriver.exe"
 
 3º Vá em "login_globo" e "senha_globo" e troque seu_email.com pelo seu email e sua_senha pela senha para efetuar o login no site
